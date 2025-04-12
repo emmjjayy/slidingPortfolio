@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merienda:wght@300..900&family=Poppins:wght@300;400;500;600&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Mel Joy <span>Lusuegro</span></a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <div class="portfolio-container">
+        <div class="slider">
+            <!-- Home Section -->
+            <section class="slide home" id="home">
+                <div class="home-content">
+                    <h1>Hey, It's <span>Mel Joy</span></h1>
+                    <h3 class="text-animation">A Computer Science Student</h3>
+                    <p>
+                        at Cavite State University. I'm passionate about technology and eager to create innovative solutions.
+                        I thrive on challenges and enjoy transforming ideas into reality. 
+                        For me, there’s nothing more rewarding than creating projects that make people’s lives easier.
+                    </p>
+                    <a href="CV.pdf" download class="download-btn">Download CV</a>
+                </div>
+                <div class="home-img">
+                    <img src="pic.jpg" alt="Profile Picture">
+                </div>
+            </section>
+    
+            <!-- About Section -->
+            <section class="slide about" id="about">
+                <h2 class="heading">About Me</h2>
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="aboutpicture.jpg" alt="About Me Picture">
+                    </div>
+                    <div class="about-text">
+                        <p><strong>Age:</strong> 20</p>
+                        <p><strong>Birthdate:</strong> September 27, 2004</p>
+                        <p><strong>Hobbies:</strong> Watching, Reading, Photography</p>
+                        <p><strong>Mother's Name:</strong> Merely Lusuegro</p>
+                        <p><strong>Father's Name:</strong> Joely Lusuegro</p>
+                        <p><strong>Only Child:</strong> Yes</p>
+                        <p><strong>Name Origin:</strong> My name is a combination of my parents' names.</p>
+                        <a href="#education" class="education-btn" id="knowMeMoreBtn">Know me more</a>
+                    </div>
+                </div>
+            </section>  
+
+              <!-- Education Section -->
+        <section class="slide education" id="education">
+            <h2 class="heading">Education</h2>
+            <div class="education-content">
+                <div class="timeline">
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2016</div>
+                        <div class="timeline-content">
+                            <h3>Elementary</h3>
+                            <p>Buenavista Central Elementary School</p>
+                        </div>
+                    </div>
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020</div>
+                        <div class="timeline-content">
+                            <h3>Junior High School</h3>
+                            <p>Buenavista National High School</p>
+                        </div>
+                    </div>
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>Senior High School</h3>
+                            <p>Saint Lawrence Academy - Buenavista</p>
+                        </div>
+                    </div>
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">
+                            <h3>Tertiary(present)</h3>
+                            <p>Cavite State University - Bacoor City</p>
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
+
+            
+          <!-- Skills Section -->
+          <section class="slide skills" id="skills">
+            <h2 class="heading">Skills</h2>
+            <div class="skills-container">
+                <div class="frontend">
+                    <h3 class="sub-heading">Frontend Development</h3>
+                    <div class="skills-boxes">
+                        <div class="skill-box">
+                            <img src="html.png" alt="HTML">
+                            <p>HTML</p>
+                            <span>Experienced</span>
+                        </div>
+                        <div class="skill-box">
+                            <img src="css.png" alt="CSS">
+                            <p>CSS</p>
+                            <span>Experienced</span>
+                        </div>
+                        <div class="skill-box">
+                            <img src="java-script.png" alt="JavaScript">
+                            <p>JavaScript</p>
+                            <span>Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="backend">
+                    <h3 class="sub-heading">Backend Development</h3>
+                    <div class="skills-boxes">
+                        <div class="skill-box">
+                            <img src="php.png" alt="PHP">
+                            <p>PHP</p>
+                            <span>Intermediate</span>
+                        </div>
+                        <div class="skill-box">
+                            <img src="java.png" alt="Java">
+                            <p>Java</p>
+                            <span>Intermediate</span>
+                        </div>
+                        <div class="skill-box">
+                            <img src="python.png" alt="Python">
+                            <p>Python</p>
+                            <span>Intermediate</span>
+                        </div>
+                        <div class="skill-box">
+                            <img src="mysql.png" alt="Mysql">
+                            <p>MySQL</p>
+                            <span>Experienced</span>
+                        </div>
+                    <div class="skill-box">
+                        <img src="database.png" alt="MongoDB">
+                        <p>MongoDB</p>
+                        <span>Intermediate</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+ <!-- Projects Section -->
+<section class="slide projects" id="projects">
+    <h2 class="heading">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-box">
+            <img src="chikachat.png" alt="Project 1">
+            <h3>Chat Application</h3>
+            <p class="description">A simple chat application where users can send and receive messages.</p>
+            <p class="tools-used"><strong>Tools:</strong> Java, NetBeans</p>
+            <a href="https://drive.google.com/drive/folders/1OVbWfxe52afu4q6NDxDHGfMwuwoqzoyA?usp=sharing" target="_blank" class="view-btn">View Files</a>
+        </div>
+        <div class="project-box">
+            <img src="checklist.png" alt="Project 2">
+            <h3>Checklist</h3>
+            <p class="description">An interactive checklist website that also tracks subjects, instructors, grades, and subjects.</p>
+            <p class="tools-used"><strong>Tools:</strong> CSS, PHP, XAMPP</p>
+            <a href="https://drive.google.com/drive/folders/1a6U_RH7BkRZPTMZEY41shLfXM2G9x8-3?usp=sharing" target="_blank" class="view-btn">View Files</a>
+        </div>
+        <div class="project-box">
+            <img src="portfolio.png" alt="Project 3">
+            <h3>Portfolio</h3>
+            <p class="description">My personal web portfolio showcasing my projects, skills, and background.</p>
+            <p class="tools-used"><strong>Tools:</strong> HTML, CSS, JavaScript, VSCode</p>
+            <a href="https://drive.google.com/drive/folders/1F7NwYTu96ZVylbON1Ibs3ekAnn5h4-1v?usp=sharing" target="_blank" class="view-btn">View Files</a>
+        </div>
+    </div>
+
+    <div class="see-more-container">
+        <a href="#more-projects" class="see-more-link">See More</a>
+    </div>
+</section>
+
+<!-- Group Projects Section -->
+<section class="slide more-projects" id="more-projects">
+    <h2 class="heading">Group Projects</h2>
+    <div class="projects-container">
+        <div class="project-box">
+            <img src="pawpals.png" alt="Project 4">
+            <h3>Pet Adoption Management System</h3>
+            <p class="description">A web-based platform for managing pet adoption processes, pet info, and user requests.</p>
+            <p class="tools-used"><strong>Tools:</strong> Java, Eclipse, MySQL</p>
+            <a href="https://drive.google.com/drive/folders/1hQpNeyHuZXcFgYqE-UNi8vHptt3OK-3C?usp=drive_link" target="_blank" class="view-btn">View Files</a>
+        </div>
+        <div class="project-box">
+            <img src="babybites.jpg" alt="Project 5">
+            <h3>Baby Bites POS & Inventory System</h3>
+            <p class="description">A Point-of-Sale and Inventory System developed for donut shop to monitor sales and stock levels.</p>
+            <p class="tools-used"><strong>Tools:</strong> CSS, PHP, JavaScript, VSCode</p>
+            <a href="https://drive.google.com/drive/folders/1T3OHkP6qeZyF6LH-DayVyO9c00A9F9ah?usp=sharing" target="_blank" class="view-btn">View Files</a>
+        </div>
+        <div class="project-box">
+            <img src="enrollment.jpg" alt="Project 6">
+            <h3>Enrollment System</h3>
+            <p class="description">An automated system for handling student enrollment, course management, and record tracking.</p>
+            <p class="tools-used"><strong>Tools:</strong> HTML, CSS, JavaScript, VSCode</p>
+            <a href="https://drive.google.com/drive/folders/19f449N5Kj3Lw_ryM0G6HxgXsTdmbDGoK?usp=sharing" target="_blank" class="view-btn">View Files</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section class="slide contact" id="contact">
+    <h2 class="heading">Contact Me</h2>
+  
+    <div class="contact-content two-columns">
+  
+        <!-- Google Map -->
+        <div class="map-container">
+         <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.1444131930707!2d120.92347427423181!3d14.418837386046276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d3a5c6972a1b%3A0x5898f6985770cbbe!2sLegian%202%20Subdivision%20Phase%20B!5e0!3m2!1sen!2sph!4v1743844362626!5m2!1sen!2sph"
+             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+ 
+     <!-- Contact Form -->
+     <form id="contact-form" action="https://getform.io/f/bvrwnozb" method="POST">
+        <input type="text" name="from_name" placeholder="Your Name" required>
+        <input type="email" name="reply_to" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="status-message"></p>
+    </form>
+    
+ 
+ </div> 
+
+    <!-- Social Media Icons -->
+    <div class="contact-icons">
+        <a href="https://www.facebook.com/share/1E1YVEL45H/" target="_blank" class="contact-icon">
+            <img src="facebook.png" alt="Facebook Icon">
+        </a>
+        <a href="https://www.instagram.com/emmjjayyy/profilecard" target="_blank" class="contact-icon">
+            <img src="instagram.png" alt="Instagram Icon">
+        </a>
+        <a href="https://www.tiktok.com/@emmjjayy6?_t=8rN1BHCscDP&_r=1" target="_blank" class="contact-icon">
+            <img src="tik-tok.png" alt="Tiktok Icon">
+        </a>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Mel Joy Lusuegro. All Rights Reserved.</p>
+    </footer>    
+
+</section>
+</div>
+    <!-- Navigation Buttons -->
+    <button id="prev">&#10094;</button>
+    <button id="next">&#10095;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
